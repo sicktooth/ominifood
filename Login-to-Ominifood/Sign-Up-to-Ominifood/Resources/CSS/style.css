@@ -1,0 +1,111 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*:focus { outline: none; }
+body {
+    background-color: #d9d9d9;
+    font-size: 18px;
+    height: 100vh;
+}
+header {
+    background-color: #e67e22;
+    height: 70px;
+    padding: 10px;
+}
+header img {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+nav {
+    float: right; 
+    margin-top: 10px;
+}
+nav li { 
+    list-style: none;
+    margin: 0 8px;
+}
+nav li a:visited,
+nav li a:link {
+    text-decoration: none;
+    color: #d9d9d9;
+    -webkit-transition: color 0.4s;
+    transition: color 0.4s;
+}
+nav li a:hover,
+nav li a:active{
+    color: #fff;
+}
+
+.main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.form {
+    margin: 90px auto 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    width: 400px;
+    padding: 0 20px 20px 20px;
+    border-radius: 10px;    
+} 
+.first {
+    margin-top: 35px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: grey;
+}
+input[type=submit]{
+    height: 50px;
+    background-color: #ffa453;
+    color: #fff;
+    -webkit-transition: background-color 0.45s;
+    transition: background-color 0.45s;
+    cursor:pointer;
+}
+input[type=submit]:hover,
+input[type=submit]:active{
+    background-color: #e67e22;
+}
+
+.col {
+    margin: 1% 0 0 1.6%;
+}
+.fact {
+    margin-bottom: 25px;
+}
+::-webkit-input-placeholder {
+    padding-left: 10px;
+}
+:-ms-input-placeholder {
+    padding-left: 10px;
+}
+::placeholder {
+    padding-left: 10px;
+}
+.fact a:link,
+.fact a:visited { 
+    text-decoration: none;
+    -webkit-transition: color 0.4s;
+    transition: color 0.4s;
+}
+.fact a:hover,
+.fact a:active { color: #e67e22; }
+.agree {
+    font-size: 14px;
+    color: #404040;
+}
+.agree a {
+    -webkit-text-decoration-color: black;
+    text-decoration-color: black;
+    color: black;
+}

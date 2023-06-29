@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign up</title>
+        <link href="Vendors/CSS/1.3%20grid.css.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="Vendors/CSS/normalize.css">
+        <link rel="stylesheet" type="text/css" href="Resources/CSS/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Resources/CSS/queries.css">
+    </head>
+    <body>
+        <header>
+            <img src="Resources/CSS/img/logo.png" alt="logo img">
+            <nav>
+                <ul>
+                    <li><a href="#" target="_self">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="main">
+            <div class="row form">
+                <form action="get">
+                    <div class="row first">
+                        <div class="col span-1-of-2">
+                            <input type="text" placeholder="First name" id="firstname" name="first name" autocomplete="given-name" required>
+                        </div>
+                        <div class="col span-1-of-2">
+                            <input type="text" placeholder="Last name" id="lastname" name="last name" autocomplete="family-name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="email" placeholder="E-mail" id="email" name="email" autocomplete="email" required>
+                    </div>
+                    <div class="row">
+                        <input type="password" placeholder="Password" id="password" name="password" autocomplete="off" required>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Sign up" id="button" name="button">
+                    </div>
+                </form>
+                <div class="fact">
+                    <p>
+                        You have an account? <a href="#" target="_self">Login!</a>
+                    </p>
+                </div>
+                <div class="agree" align="center">
+                    By click <strong>Sign up</strong>, you are in agreement to the <a href="#" target="_blank">Terms of use</a> and <a href="#" target="_blank">privacy policy</a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
