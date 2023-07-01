@@ -30,6 +30,6 @@
     mail($recipient, $subject, $email_content, $email_headers);
     
     // Redirect to the index.html page with success code
-    header("Location: http://ominifood.netlify.app/index.php?success=1#form");
+    header("Location: http://ominifood1.netlify.app/index.php?success=1#form");
 
 ?>
