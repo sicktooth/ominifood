@@ -630,9 +630,8 @@ footer p {
 }
 
 .mename {
-    color: #000;
-    background-color: rgba(144, 238, 144, 0.712);
-    font-weight: bolder;
+    color: #888;
+    font-weight: 800;
 }
 
 /*---------------------------------
