@@ -1,3 +1,3 @@
 # ominifood
- just ominifood which is a fictional company who sells food online.
- project idea gotten from udemy course  
+ just ominifood which is a fictional company that sells food online.
+ project idea gotten from Udemyy course 
