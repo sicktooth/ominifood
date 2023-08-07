@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign in</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--        <link type="text/css" rel="stylesheet" href="Resources/CSS/style.css">-->
+        <link type="text/css" rel="stylesheet" href="Vendors/1.3%20grid.css.css">
+        <link type="text/css" rel="stylesheet" href="Vendors/normalize.css">
+<!--        <link type="text/css" rel="stylesheet" href="Resources/CSS/queries.css">-->
+        <style>
+            * {-webkit-box-sizing: border-box;box-sizing: border-box;padding: 0;margin: 0;}
+            body {background-color: #eaeaea; font-size: 18px;}
+            header {background-color: #e67e22;height: 70px;padding: 10px;}
+            header img {height: 50px;width: 50px;float: left;}
+            nav {float: right; margin-top: 10px;}
+            nav li { list-style: none;margin: 0 8px;}
+            nav li a:visited,
+            nav li a:link {text-decoration: none;color: #d9d9d9;-webkit-transition: color 0.4s;transition: color 0.4s;}
+            nav li a:hover,
+            nav li a:active{color: #fff;}
+            .main { padding: 20px; display: -webkit-box; display: -ms-flexbox; display: flex;}
+            .form {margin: 100px auto 0 auto;padding: 40px;background-color: #fff;width: 450px;border-radius: 10px;-webkit-box-shadow: 3px 10px 20px #c6c6c6;box-shadow: 3px 10px 20px #c6c6c6;}
+            .form div {margin:5px 0 25px 0;}
+            label {font-family: serif;font-weight:400;}
+            input {width: 100%;height: 40px;border-radius: 5px;}
+            .fact {float: right;color: #cccccc;}
+            .text a:link,
+            .text a:visited {text-decoration: none;color: #000;-webkit-transition: color 0.4s;transition: color 0.4s;}
+            .text a:active,
+            .text a:hover { color: #e67e22; }
+            .form div:last-child a:link,
+            .form div:last-child a:visited {text-decoration: none;-webkit-transition: color 0.4s;transition: color 0.4s;} 
+            .form div:last-child a:hover,
+            .form div:last-child a:active {color: #e67e22;}
+            input[type=submit] {background-color: #ffa453;-webkit-transition: background-color 0.4s;transition: background-color 0.4s;cursor: pointer;}
+            input[type=submit]:active,
+            input[type=submit]:hover {background-color: #e67e22;}
+            *:focus { outline: none; }
+            ::-webkit-input-placeholder {padding-left: 10px;}
+            :-ms-input-placeholder {padding-left: 10px;}
+            ::placeholder {padding-left: 10px;}
+            @media only screen and (max-width: 767px){
+                    .form {margin-top: 80px;}
+            }
+            @media only screen and (max-width: 480px){
+                    .form {padding: 20px;margin-top: 60px;}
+                    body {font-size: 16px;}
+                    .fact { margin-left: 8px;}
+            }
+        </style>
+    </head>
+    
+    <body>
+        
+        <header>
+            <img src="Resources/CSS/img/logo-white.png" alt="logo-image" class="logo">
+            <nav>
+                <ul>
+                <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+        <section class="main">
+            <div class="row form">
+                <form action="_blank">
+                        <label>Email</label>
+                    <div class="row">                 
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                    </div>
+                        <label>Password</label>
+                    <div class="row">
+                        <input type="password" id="passeord" name="password" required>
+                    </div>
+                        <label>Two-Factor Authentication</label>
+                        <p class="fact">Optional</p>
+                    <div class="row">
+                        <input type="number" id="number" name="number" placeholder="6-digit code">
+                    </div>
+                    <div class="row text">
+                        <p><a href="#">Forgot your password?</a></p>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Login" id="btn">
+                    </div>
+                </form>
+                <div>
+                    <p>Create new account? <a href="#" target="_self">Sign up!</a></p>
+                </div>
+            </div>
+        
+        </section>
+    </body>
+
+</html>
